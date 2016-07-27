@@ -33,6 +33,7 @@ public class ExcelToSql {
             StringBuffer buffer = new StringBuffer();
             for(int j=0;j<17;j++){
                 cell = row.getCell(j);
+                System.out.println("测试Git");
                 if(null !=cell){
                     if(XSSFCell.CELL_TYPE_STRING == cell.getCellType()){
                         buffer.append(cell.getStringCellValue()).append("|");
