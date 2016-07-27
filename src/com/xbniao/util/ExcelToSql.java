@@ -34,6 +34,7 @@ public class ExcelToSql {
             for(int j=0;j<17;j++){
                 cell = row.getCell(j);
                 System.out.println("测试Git");
+                System.out.println("再测试一下试试");
                 if(null !=cell){
                     if(XSSFCell.CELL_TYPE_STRING == cell.getCellType()){
                         buffer.append(cell.getStringCellValue()).append("|");
